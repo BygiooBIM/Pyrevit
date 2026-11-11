@@ -3,7 +3,19 @@
 Herramientas de la oficina para Revit 2026. Se requiere pyRevit 5.x.
 La raíz de este repositorio es la extensión: pyRevit la instala como `BygiooBIM.extension`.
 
-## Instalación (una vez por equipo)
+## Instalación rápida (para compañeros)
+
+1. Descarga y descomprime el paquete `BygiooBIM_Instalador_vX.zip`.
+2. Doble clic en **`Instalar_BygiooBIM.bat`**. Instala en `C:\Autodesk\Extensiones\BygiooBIM.extension`
+   y registra la carpeta en pyRevit. Requisito: tener pyRevit 5.x instalado.
+3. Abre Revit 2026 (o **pyRevit → Reload**). Aparece la pestaña **BygiooBIM**.
+
+**Para actualizar:** ejecuta de nuevo el `.bat` (con el paquete nuevo junto a él, o sin ZIP para
+descargar la última versión de GitHub si el repositorio es público). Después, **pyRevit → Reload**.
+
+Versión instalada: archivo `version.txt`. Cambios por versión: sección *Versiones* al final.
+
+## Instalación alternativa
 
 ### Opción A: desde GitHub (recomendada, permite actualizar con un clic)
 Abre una terminal (cmd) en Windows y ejecuta:
@@ -38,3 +50,7 @@ Copia el texto completo de la ventana roja de pyRevit y pégaselo a Claude.
 ## Para Claude
 
 Las reglas de desarrollo están en la skill `.claude/skills/pyrevit-revit/SKILL.md`.
+
+## Versiones
+
+- **1.0.0** — Primera versión: Auditoria → Eliminar Duplicados. Instalador `.bat`.

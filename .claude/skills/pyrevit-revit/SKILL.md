@@ -30,7 +30,11 @@ BygiooBIM.tab/
   el texto visible con tildes va en `bundle.yaml` (`title:`).
 - Antes de escribir una herramienta nueva, lee `lib/bim_utils.py` y reutiliza lo que haya.
   Si un helper sirve a 2+ herramientas, muévelo ahí.
-- Al terminar, añade la herramienta a la tabla de `README.md`.
+- Al terminar, añade la herramienta a la tabla de `README.md`, sube `version.txt`
+  (1.0.0 → 1.1.0 si hay herramienta nueva, 1.0.1 si es corrección) y anota el cambio en *Versiones*.
+- Para compartir con compañeros, genera el paquete con
+  `bash instalador/empaquetar.sh <carpeta_salida>`: crea `BygiooBIM_Instalador_v<versión>.zip`
+  con `Instalar_BygiooBIM.bat` + `BygiooBIM.zip`. El `.bat` instala y también actualiza.
 - Para crear un botón nuevo copia `assets/pushbutton_template/` y genera el icono con
   `python scripts/make_icon.py <carpeta.pushbutton> "<TEXTO>" "#color"`.
 
