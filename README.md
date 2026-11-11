@@ -9,9 +9,10 @@ La raíz de este repositorio es la extensión: pyRevit la instala como `BygiooBI
 Abre una terminal (cmd) en Windows y ejecuta:
 
 ```
-pyrevit extend ui BygiooBIM https://github.com/BygiooBIM/Pyrevit.git
+pyrevit extend ui BygiooBIM https://github.com/BygiooBIM/Pyrevit.git --branch=main
 ```
 
+El `--branch=main` es necesario: pyRevit busca por defecto la rama `master`.
 Si el repositorio es privado, agrega `--username TU_USUARIO --password TU_TOKEN`
 (el token es un *personal access token* de GitHub con permiso de lectura).
 
