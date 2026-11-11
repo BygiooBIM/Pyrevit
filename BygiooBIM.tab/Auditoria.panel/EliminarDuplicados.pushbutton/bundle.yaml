@@ -1,0 +1,6 @@
+title: Eliminar Duplicados
+tooltip: >-
+  Busca el warning "Hay instancias idénticas en el mismo lugar" y elimina las copias,
+  conservando una instancia por grupo. Muestra un reporte antes de borrar y permite
+  solo seleccionarlas. Se deshace con Ctrl+Z.
+author: BygiooBIM
